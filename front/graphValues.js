@@ -10,7 +10,7 @@ while (currentDate <= endDate) {
     const month = currentDate.getMonth() + 1;
     objValues.dates.push(`${year}-${month.toString().padStart(2, '0')}`);
 
-    objValues.values.push(Math.floor(Math.random() * 100) + 1);
+    objValues.values.push(Math.floor(Math.random() * 50) + 1);
     currentDate.setMonth(currentDate.getMonth() + 1);
 }
 
